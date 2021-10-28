@@ -44,7 +44,7 @@ function afficherResultats(tabCheck) {
       aideResultat.innerText = "";
       noteResultat.innerText = "5/5";
       const audio = document.createElement("audio");
-      audio.src = "julien-lepers-ah-oui-oui-oui-oui-oui-oui-oui.mp3";
+      audio.src = "ressources/julien-lepers-ah-oui-oui-oui-oui-oui-oui-oui.mp3";
       audio.play();
       document.getElementById("lepersGif").style.display = "block";
       setTimeout(() => {
@@ -76,7 +76,7 @@ function afficherResultats(tabCheck) {
         "Retentez une autre réponse dans les cases rouges, puis re-validez !";
       noteResultat.innerText = "1/5";
       const ohlala = document.createElement("audio");
-      ohlala.src = "Ohlalala.mp3";
+      ohlala.src = "ressources/Ohlalala.mp3";
       ohlala.play();
       break;
     case 5:
@@ -85,7 +85,7 @@ function afficherResultats(tabCheck) {
         "Retentez une autre réponse dans les cases rouges, puis re-validez !";
       noteResultat.innerText = "0/5";
       const bouleNoire = document.createElement("audio");
-      bouleNoire.src = "motus-boule-noire.mp3";
+      bouleNoire.src = "ressources/motus-boule-noire.mp3";
       bouleNoire.play();
       document.getElementById("nonGif").style.display = "block";
       setTimeout(() => {
